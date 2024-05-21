@@ -1,0 +1,39 @@
+.ycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.ycard img{
+    width: 400px;
+}
+.ycard a{
+font-weight: 500;
+font-size: 22px;
+transition: 0.4s linear;
+}
+.ycard a:hover{
+    color: gray;
+}
+.ycard p{
+    font-size: 14px;
+    color: gray;
+}
+.cardDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: lightgray;
+}
+.cardDown img{
+    width: 50px;
+    border-radius: 50%;
+}
+.cardDown p{
+    padding: 14px;
+    background: goldenrod;
+    color: white;
+    margin-bottom: -1px;
+}
